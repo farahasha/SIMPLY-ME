@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    font: weight 10000%;
+    margin: 60px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 20px;
+    
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(247, 1, 13);
+
+}
+
+article img {
+    width: 50%;
+    margin-left: 15%;
+}
+#firstItem {
+    background-color: gray;
+}
+.listItems {
+    background-color: gray;
+}
