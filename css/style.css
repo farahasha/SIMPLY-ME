@@ -18,12 +18,44 @@ nav ul li a {
 }
 
 article img {
-    width: 50%;
-    margin-left: 15%;
+    width: 80%;
+    margin-left: 50%;
 }
-#firstItem {
+/*#firstItem {
     background-color: gray;
 }
 .listItems {
     background-color: gray;
+}
+
+*/
+p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #700c3e;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+h2 {
+    color: #700c3e;
+    font-size: 35px;
+}
+
+h3 {
+    color: #700c3e;
+    font-size: 35px;
+}
+
+ol {
+  font-weight: bold;  
+}
+
+ul {
+    font-weight: bold;  
 }
