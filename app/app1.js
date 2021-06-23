@@ -4,39 +4,48 @@ let username = prompt('welcome for you,can i know your name?');
 alert("hello"+ username);
 console.log(username);
 
-let age = prompt('DO YOU THINK I AM 27?');
-console.log(age);
-if (age .toLocaleLowerCase() == 'yes'){
- alert("Unfortunately, it is the truth " );
- reselt++;
-} else {
-  alert("I humbly know this");
-  }
+
+let age =prompt("DO YOU THINK I AM 27 ?");
+age.toUpperCase();
+if (age =="yes" || age =="y"){
+alert("Unfortunately, it is the truth");
+reselt++;
+}
+else if (age =="no" || age =="n"){
+alert("I humbly know this");
+}
+
+
 
 let study = prompt('Do you think programming is suitable for me?');
-console.log(study);
-if (study .toLocaleLowerCase() === 'yes') {
+study.toUpperCase();
+if (study == 'yes' || study == 'y') {
   alert('I should become a programming fashionista');
 reselt++;
-} else{
-  alert("Don't worry about it just your opinion")
+} else if (study=="NO" || study =="N"){
+  alert("Don't worry about it just your opinion");
 }
 
 
 let user = prompt('You think we got caught in a trap?');
-console.log(user);
-if (user .toLocaleLowerCase() === 'yes'|| 'no' ){
+user.toUpperCase();
+if (user == 'yes'|| user == 'y' ){
 alert('MAKE SURE NOT THINK');
 reselt++;
+} else if (user =="NO" || user =="N"){
+alert('MAKE SURE NOT THINK');
 }
 
+
 let answer = prompt("Do you think I'm enjoying it ?");
-console.log(answer) ;
-if (user .toLocaleLowerCase() === 'no' ){
+answer.toUpperCase();
+if (answer == 'no'  || answer =='n'){
 alert('ITS OKY ,LIFE IS HARD')
-} else {
+} else if  (answer=="yes" || answer =="y"){
   alert ('so much wallha');
   reselt++;
+}
+
 
   let f;
   let a;
@@ -88,7 +97,7 @@ alert('your score is ' + reselt);
 console.log(reselt);
 
   document.write('welcom in my littel world');
-}
+
  
  
   
