@@ -1,61 +1,89 @@
-h1{
-    text-align: center;
-    font: weight 10000%;
-    margin: 60px;
+
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+
+html {
+    background-image: url("https://th.bing.com/th/id/OIP.o_SFNFylP6-VWYzwl7NQnwHaNK?pid=ImgDet&rs=1");
+   
+color: rgb(250, 248, 248);
 }
+
+
 
 nav ul li {
     display: inline-block;
-    margin: 20px;
-    
+    margin: 20px; 
+    font-family: "Sofia", sans-serif;
+   color: rgb(250, 248, 248);
+   font-size: 30px;
 }
 
 
 nav ul li a {
-    text-decoration: none;
+    
+    text-shadow: 2px 2px 5px red;
     color: rgb(247, 1, 13);
-
+    font-family: "Sofia", sans-serif;
+    font-size: 80px;
 }
 
-article img {
-    width: 80%;
-    margin-left: 50%;
-}
-/*#firstItem {
-    background-color: gray;
-}
-.listItems {
-    background-color: gray;
-}
+     img {
+        text-align: center;
+        border-radius: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+   
 
-*/
+
 p {
     text-align: center;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
+    font-family: "Sofia", sans-serif;
 }
 
 h1 {
     text-align: center;
-    color: #700c3e;
+    color: rgb(250, 248, 248);
     font-weight: bold;
-    font-size: 35px;
+    font-size: 80px;
+    font-family: "Sofia", sans-serif;
 }
 
 h2 {
-    color: #700c3e;
-    font-size: 35px;
+    color: rgb(247, 1, 13);
+    text-shadow: 2px 2px 5px red;
+    font-size: 30px;
+    font-family: "Sofia", sans-serif;
 }
 
 h3 {
-    color: #700c3e;
-    font-size: 35px;
+    color: rgb(247, 1, 13);
+    text-shadow: 2px 2px 5px red;
+    font-size: 30px;
+    font-family: "Sofia", sans-serif;
 }
 
 ol {
   font-weight: bold;  
+  font-family: "Sofia", sans-serif;
+  font-size: 30px;
 }
+
+
 
 ul {
     font-weight: bold;  
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
 }
+
+footer {
+    font-weight: bold;  
+    font-family: "Sofia", sans-serif;
+    font-size: 20px;
+}
+
+
+

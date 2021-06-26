@@ -7,11 +7,11 @@ console.log(username);
 
 let age =prompt("DO YOU THINK I AM 27 ?");
 age.toUpperCase();
-if (age =="yes" || age =="y"){
+if (age =="YES" || age =="Y"){
 alert("Unfortunately, it is the truth");
 reselt++;
 }
-else if (age =="no" || age =="n"){
+else if (age =="NO" || age =="N"){
 alert("I humbly know this");
 }
 
@@ -19,7 +19,7 @@ alert("I humbly know this");
 
 let study = prompt('Do you think programming is suitable for me?');
 study.toUpperCase();
-if (study == 'yes' || study == 'y') {
+if (study == 'YES' || study == 'Y') {
   alert('I should become a programming fashionista');
 reselt++;
 } else if (study=="NO" || study =="N"){
@@ -29,7 +29,7 @@ reselt++;
 
 let user = prompt('You think we got caught in a trap?');
 user.toUpperCase();
-if (user == 'yes'|| user == 'y' ){
+if (user == 'YES'|| user == 'Y' ){
 alert('MAKE SURE NOT THINK');
 reselt++;
 } else if (user =="NO" || user =="N"){
@@ -39,9 +39,9 @@ alert('MAKE SURE NOT THINK');
 
 let answer = prompt("Do you think I'm enjoying it ?");
 answer.toUpperCase();
-if (answer == 'no'  || answer =='n'){
+if (answer == 'NO'  || answer =='N'){
 alert('ITS OKY ,LIFE IS HARD')
-} else if  (answer=="yes" || answer =="y"){
+} else if  (answer=="YES" || answer =="Y"){
   alert ('so much wallha');
   reselt++;
 }
